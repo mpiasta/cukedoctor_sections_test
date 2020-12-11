@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="5" tests="5" time="1.100867">
+    <testcase classname="Logowanie" name="Logowanie poprawne" time="1.061367">
+        <skipped>
+            <![CDATA[Zakładając, że Kurier jest na ekranie logowania.............................undefined
+Kiedy Kurier loguje się do aplikacji........................................undefined
+Wtedy Strona powitalna z przyciskiem Rozpocznij dzień pracy powinna zostać wyświetlona.undefined
+]]>
+        </skipped>
+    </testcase>
+    <testcase classname="Logowanie" name="Trzymanie sesji" time="0.00818">
+        <skipped>
+            <![CDATA[Zakładając, że Kurier jest zalogowany.......................................undefined
+Oraz Strona powitalna z przyciskiem Rozpocznij dzień pracy jest wyświetlona.undefined
+Kiedy aplikacja pracuje w tle przez 4 sekundy i zostaje przywrócona.........undefined
+Wtedy Strona powitalna z przyciskiem Rozpocznij dzień pracy powinna zostać wyświetlona.undefined
+]]>
+        </skipped>
+    </testcase>
+    <testcase classname="Wybór języka" name="Wybór języka" time="0.017577">
+        <skipped>
+            <![CDATA[Zakładając, że Kurier jest na ekranie logowania.............................undefined
+Kiedy wybiera "Polski" w aplikacji..........................................undefined
+Wtedy język aplikacji zmienia się na "Polski"...............................undefined
+]]>
+        </skipped>
+    </testcase>
+    <testcase classname="Wybór języka" name="Wybór języka 2" time="0.007359">
+        <skipped>
+            <![CDATA[Zakładając, że Kurier jest na ekranie logowania.............................undefined
+Kiedy wybiera "Rosyjski" w aplikacji........................................undefined
+Wtedy język aplikacji zmienia się na "Rosyjski".............................undefined
+]]>
+        </skipped>
+    </testcase>
+    <testcase classname="Wybór języka" name="Wybór języka 3" time="0.006384">
+        <skipped>
+            <![CDATA[Zakładając, że Kurier jest na ekranie logowania.............................undefined
+Kiedy wybiera "Ukraiński" w aplikacji.......................................undefined
+Wtedy język aplikacji zmienia się na "Ukraiński"............................undefined
+]]>
+        </skipped>
+    </testcase>
+</testsuite>

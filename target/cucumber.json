@@ -1,0 +1,307 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Logowanie poprawne",
+        "description": "",
+        "id": "logowanie;logowanie-poprawne",
+        "type": "scenario",
+        "keyword": "Scenariusz",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "Kurier jest na ekranie logowania",
+            "match": {},
+            "keyword": "Zakładając, że "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "Kurier loguje się do aplikacji",
+            "match": {},
+            "keyword": "Kiedy "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "Strona powitalna z przyciskiem Rozpocznij dzień pracy powinna zostać wyświetlona",
+            "match": {},
+            "keyword": "Wtedy "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@section-Logowanie"
+          },
+          {
+            "name": "@order-2"
+          },
+          {
+            "name": "@Auto"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Trzymanie sesji",
+        "description": "",
+        "id": "logowanie;trzymanie-sesji",
+        "type": "scenario",
+        "keyword": "Scenariusz",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "Kurier jest zalogowany",
+            "match": {},
+            "keyword": "Zakładając, że "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "Strona powitalna z przyciskiem Rozpocznij dzień pracy jest wyświetlona",
+            "match": {},
+            "keyword": "Oraz "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "aplikacja pracuje w tle przez 4 sekundy i zostaje przywrócona",
+            "match": {},
+            "keyword": "Kiedy "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "Strona powitalna z przyciskiem Rozpocznij dzień pracy powinna zostać wyświetlona",
+            "match": {},
+            "keyword": "Wtedy "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@section-Logowanie"
+          },
+          {
+            "name": "@order-2"
+          },
+          {
+            "name": "@Auto"
+          }
+        ]
+      }
+    ],
+    "name": "Logowanie",
+    "description": "  Jako Kurier,\n  chcę mieć możliwość zalogowania do aplikacji\n  oraz wyświetlenia ekranu startowego",
+    "id": "logowanie",
+    "keyword": "Funkcja",
+    "uri": "src/test/resources/features/Logowanie/logowanie.feature",
+    "tags": [
+      {
+        "name": "@section-Logowanie",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      },
+      {
+        "name": "@order-2",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 16,
+        "name": "Wybór języka",
+        "description": "",
+        "id": "wybór-języka;wybór-języka;;2",
+        "type": "scenario",
+        "keyword": "Szablon scenariusza",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "Kurier jest na ekranie logowania",
+            "match": {},
+            "keyword": "Zakładając, że "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "wybiera \"Polski\" w aplikacji",
+            "match": {},
+            "keyword": "Kiedy "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "język aplikacji zmienia się na \"Polski\"",
+            "match": {},
+            "keyword": "Wtedy "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@section-Language"
+          },
+          {
+            "name": "@order-1"
+          },
+          {
+            "name": "@Auto"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Wybór języka",
+        "description": "",
+        "id": "wybór-języka;wybór-języka;;3",
+        "type": "scenario",
+        "keyword": "Szablon scenariusza",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "Kurier jest na ekranie logowania",
+            "match": {},
+            "keyword": "Zakładając, że "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "wybiera \"Rosyjski\" w aplikacji",
+            "match": {},
+            "keyword": "Kiedy "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "język aplikacji zmienia się na \"Rosyjski\"",
+            "match": {},
+            "keyword": "Wtedy "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@section-Language"
+          },
+          {
+            "name": "@order-1"
+          },
+          {
+            "name": "@Auto"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Wybór języka",
+        "description": "",
+        "id": "wybór-języka;wybór-języka;;4",
+        "type": "scenario",
+        "keyword": "Szablon scenariusza",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "Kurier jest na ekranie logowania",
+            "match": {},
+            "keyword": "Zakładając, że "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "wybiera \"Ukraiński\" w aplikacji",
+            "match": {},
+            "keyword": "Kiedy "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "język aplikacji zmienia się na \"Ukraiński\"",
+            "match": {},
+            "keyword": "Wtedy "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@section-Language"
+          },
+          {
+            "name": "@order-1"
+          },
+          {
+            "name": "@Auto"
+          }
+        ]
+      }
+    ],
+    "name": "Wybór języka",
+    "description": "  Jako Kurier,\n  chcę mieć możliwość wyboru języka aplikacji\n  przed rozpoczęciem dnia pracy",
+    "id": "wybór-języka",
+    "keyword": "Funkcja",
+    "uri": "src/test/resources/features/Logowanie/wyborJezyka.feature",
+    "tags": [
+      {
+        "name": "@section-Language",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      },
+      {
+        "name": "@order-1",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

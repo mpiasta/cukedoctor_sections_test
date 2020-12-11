@@ -1,0 +1,108 @@
+:toc: left
+:backend: pdf
+:doctitle: Specyfikacja
+:doctype: book
+:icons: font
+:!numbered:
+:!linkcss:
+:sectanchors:
+:sectlink:
+:docinfo:
+:source-highlighter: highlightjs
+:toclevels: 3
+:revnumber: 1.0-SNAPSHOT
+:hardbreaks:
+:chapter-label: Obszar
+:version-label: Wersja
+:allow-uri-read:
+
+= *Specyfikacja*
+
+
+== *Funkcje*
+
+[[Wybór-języka, Wybór języka]]
+=== *Wybór języka*
+
+****
+Jako Kurier,
+chcę mieć możliwość wyboru języka aplikacji
+przed rozpoczęciem dnia pracy
+****
+
+==== Wybór języka icon:thumbs-down[role="red",title="Failed"]
+[small]#tags: @Auto,@section-Language#
+
+
+==========
+Zakładając, że ::
+Kurier jest na ekranie logowania icon:thumbs-down[role="yellow",title="Undefined"]
+Kiedy ::
+wybiera "Polski" w aplikacji icon:thumbs-down[role="yellow",title="Undefined"]
+Wtedy ::
+język aplikacji zmienia się na "Polski" icon:thumbs-down[role="yellow",title="Undefined"]
+==========
+
+==== Wybór języka icon:thumbs-down[role="red",title="Failed"]
+[small]#tags: @Auto,@section-Language#
+
+
+==========
+Zakładając, że ::
+Kurier jest na ekranie logowania icon:thumbs-down[role="yellow",title="Undefined"]
+Kiedy ::
+wybiera "Rosyjski" w aplikacji icon:thumbs-down[role="yellow",title="Undefined"]
+Wtedy ::
+język aplikacji zmienia się na "Rosyjski" icon:thumbs-down[role="yellow",title="Undefined"]
+==========
+
+==== Wybór języka icon:thumbs-down[role="red",title="Failed"]
+[small]#tags: @Auto,@section-Language#
+
+
+==========
+Zakładając, że ::
+Kurier jest na ekranie logowania icon:thumbs-down[role="yellow",title="Undefined"]
+Kiedy ::
+wybiera "Ukraiński" w aplikacji icon:thumbs-down[role="yellow",title="Undefined"]
+Wtedy ::
+język aplikacji zmienia się na "Ukraiński" icon:thumbs-down[role="yellow",title="Undefined"]
+==========
+
+[[Logowanie, Logowanie]]
+=== *Logowanie*
+
+****
+Jako Kurier,
+chcę mieć możliwość zalogowania do aplikacji
+oraz wyświetlenia ekranu startowego
+****
+
+==== Logowanie poprawne icon:thumbs-down[role="red",title="Failed"]
+[small]#tags: @Auto,@section-Logowanie#
+
+
+==========
+Zakładając, że ::
+Kurier jest na ekranie logowania icon:thumbs-down[role="yellow",title="Undefined"]
+Kiedy ::
+Kurier loguje się do aplikacji icon:thumbs-down[role="yellow",title="Undefined"]
+Wtedy ::
+Strona powitalna z przyciskiem Rozpocznij dzień pracy powinna zostać wyświetlona icon:thumbs-down[role="yellow",title="Undefined"]
+==========
+
+==== Trzymanie sesji icon:thumbs-down[role="red",title="Failed"]
+[small]#tags: @Auto,@section-Logowanie#
+
+
+==========
+Zakładając, że ::
+Kurier jest zalogowany icon:thumbs-down[role="yellow",title="Undefined"]
+Oraz ::
+Strona powitalna z przyciskiem Rozpocznij dzień pracy jest wyświetlona icon:thumbs-down[role="yellow",title="Undefined"]
+Kiedy ::
+aplikacja pracuje w tle przez 4 sekundy i zostaje przywrócona icon:thumbs-down[role="yellow",title="Undefined"]
+Wtedy ::
+Strona powitalna z przyciskiem Rozpocznij dzień pracy powinna zostać wyświetlona icon:thumbs-down[role="yellow",title="Undefined"]
+==========
+
